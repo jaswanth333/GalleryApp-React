@@ -1,0 +1,33 @@
+img {
+  display: block;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+
+.container .selected {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid#3A8DF3;
+}
+
+.container .image-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 0 10px;
+}
+.container .image-container img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.container .image-container img:hover {
+  transform: scale(1.025, 1.025);
+}
